@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: green;
+}
+h2{
+    color: brown;
+    
+}
+
+p {
+    color: black;
+    font-family: fantasy;
+}
+
+.Principal{
+    color: purple;   
+}
+
+.Secundaria{
+    color: blueviolet;
+}
+#titulo1{
+    font-size: 30px;
+    font-family: cursive;
+    }
+    
+
+ .caja {
+    width: 700px;
+    height: 150px;
+    margin: 50px;
+    padding: 200px;
+    padding: 200px;
+    border: 10px solid black;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.grid-contenedor{
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-gap: 10px;
+}
+.grid-item{
+    background-color: rgb(11, 73, 11);
+    border: 1px solid rgb(201, 230, 14);
+    padding: 10px;
+}   
+.grid-item:hover {
+    background-color: rgb(141, 199, 17);
+    animation: mover 1s;
+}
+
+@keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100px); }
+}
